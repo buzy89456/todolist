@@ -1,0 +1,32 @@
+main {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(to bottom, #eff6ff 60%, #ecedff);
+}
+
+.todo-list {
+  max-height: 55vh;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cdd3f5;
+}
+
+.form-check-input {
+  border: none;
+}
+
+.form-check-input:checked {
+  background-color: #cdd3f5;
+  border-color: #cdd3f5;
+  color: #cdd3f5;
+}
+
+.completed {
+  text-decoration: line-through;
+}
